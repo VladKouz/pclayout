@@ -1,5 +1,8 @@
 
 
+const timer = () =>{
+   
+
 const daysBlock = document.querySelector('.timer__days')
 const hoursBlock = document.querySelector('.timer__hours')
 const minutesBlock = document.querySelector('.timer__minutes')
@@ -67,4 +70,7 @@ updateTimer();
 interval = setInterval(updateTimer, 500)
 
 
-//console.log(numWord(1,['секунда', 'секунды', 'секунд']))
+//console.log(numWord(1,['секунда', 'секунды', 'секунд'])) 
+}
+
+timer()
