@@ -1,5 +1,5 @@
 const contents = document.querySelectorAll('.program-line__content');
-console.log(contents);
+//console.log(contents);
 
 contents.forEach((elem) => {
     const title = elem.querySelector('.program-line__title')
@@ -10,7 +10,7 @@ contents.forEach((elem) => {
     // }
 
     title.addEventListener('click', () => {
-        console.log(title)
+        //console.log(title)
         descr.classList.toggle('active')
     })
 
