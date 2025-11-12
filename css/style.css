@@ -222,8 +222,10 @@ input {
     width: 100%;
 }
 
+
+
 .course__progress-element {
-    width: 100%;
+    width: 100%;    
 }
 
 .course__progress-minmax {
@@ -261,7 +263,20 @@ progress::-moz-progress-value {
     height: 6px;
 }
 
+/* @keyframes expandWidth {
+  0% {
+    width: 0%; 
+    background-color:  #DF5950;
+  }
+  100% {
+    width: 100%; 
+    background-color: #451046;
+  }  
+}
 
+progress {
+    animation: expandWidth 5s ;
+} */
 
 
 .work {
